@@ -1,0 +1,109 @@
+.dham-logo{
+    width: 60px;
+}
+
+/* Initial state */
+.navbar {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 80px;
+    background-color: #ffffff59;
+    border-radius: 50px;
+    margin: 10px 250px;
+    width: calc(100% - 500px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+/* Scrolled state */
+.navbar.scrolled {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: #ffffff; /* Ensuring full opacity */
+}
+
+.nav-link{
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(236, 236, 236);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: #000;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    padding: 8px 10px;
+}
+.nav-link:hover{
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(236, 236, 236);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: #000;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    padding: 8px 10px;
+}
+.nav-link:active{
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(236, 236, 236);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: #000;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    padding: 8px 10px;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: black;
+    background-color: white;
+    border-color: wheat;
+}
+
+.dropdown-item:hover{
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+.top-offer{
+    color: #000;
+}
+
+@media (max-width: 576px) {
+    
+    /* Initial state */
+.navbar {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: #ffffff; 
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Scrolled state */
+.navbar.scrolled {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: #ffffff; 
+}
+
+.top-offer{
+   display: none;
+}
+
+}

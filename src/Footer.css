@@ -1,0 +1,67 @@
+.custom-footer {
+    background-color: #A52004;
+    color: white;
+    padding: 0;
+    position: relative;
+  }
+  
+  
+  .footer-top-image {
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: -0.2%;
+  }
+  
+  .footer-content {
+    padding: 40px 50px;
+    background-color: #A52004;
+    margin-left: 5%;
+  }
+  
+  .logos {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons>* {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #f0c93d;
+    margin-bottom: 10px;
+  
+  }
+  
+  h3 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: white;
+    margin: 5px 0;
+  }
+  
+  .subscribe-button {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 25px;
+    color: #A52004;
+    width: 25%;
+    margin-top: 10px;
+  }
+  
+  .subscribe-info input {
+    background-color: #ffffff !important;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 76%;
+    height: 35px;
+  }
+  
+  .subscribe-info input::placeholder {
+    color: #A52004;
+  }
+  
+  .subscribe-info input:focus {
+    outline: none;
+  }

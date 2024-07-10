@@ -1,0 +1,51 @@
+
+@media (max-width: 576px) {
+    .mobile-menu {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        color: white;
+        text-align: center;
+        height: 100px;
+        z-index: 2222;
+     
+        /* border-radius: 20px; */
+        /* margin-bottom: 5px; */
+     }
+     .menus{
+      padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        gap: 5;
+     }
+
+     .menu-box{
+      padding: 0 25px;
+      border: none;
+      /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+      border-radius: 25px;
+     }
+     .menu-icon{
+      font-size: 35px;
+      padding: 0;
+     }
+     .menu-icon:hover{
+      font-size: 35px;
+      padding: 0;
+      color: gold;
+     }
+     p{
+      font-size: 10px;
+      color: black;
+     }
+     p:hover{
+      font-size: 10px;
+      color: gold;
+     }
+
+     
+}
